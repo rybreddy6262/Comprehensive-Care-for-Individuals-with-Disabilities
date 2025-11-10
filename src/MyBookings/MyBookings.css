@@ -1,0 +1,89 @@
+.booking-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.booking-header h1 {
+  color: #2e7d32;
+  font-size: 28px;
+}
+
+.booking-header p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.booking-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.booking-card h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.booking-card p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.status-section {
+  margin-top: 15px;
+}
+
+.status-badge {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tracking-note {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.tracking-section {
+  background-color: #e8f0fe;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tracking-section h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.tracking-section p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.tracking-details p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background-color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #d5d5d5;
+}

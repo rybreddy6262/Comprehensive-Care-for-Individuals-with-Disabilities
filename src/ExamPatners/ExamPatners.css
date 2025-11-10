@@ -1,0 +1,56 @@
+.exam-partners-container {
+  padding: 30px;
+  background-color: #f9fafc;
+}
+
+.exam-partners-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.exam-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.exam-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.exam-card:hover {
+  transform: translateY(-5px);
+}
+
+.exam-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.exam-card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.exam-card p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #444;
+}
+
+.trusted {
+  color: green;
+  font-weight: bold;
+}
+
+.not-trusted {
+  color: red;
+  font-weight: bold;
+}

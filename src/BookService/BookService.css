@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 40px 10px;
+  font-family: sans-serif;
+}
+
+.book-service-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-service-card {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 3px solid #3498db;
+  animation: fadeIn 0.8s ease-in-out;
+  width: 100%;
+}
+
+.book-service-card h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.book-service-caregiver-info {
+  text-align: center;
+}
+
+.book-service-caregiver-photo {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.book-service-field {
+  margin-bottom: 16px;
+}
+
+.book-service-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #34495e;
+}
+
+.book-service-field input,
+.book-service-field select,
+.book-service-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s;
+}
+
+.book-service-field input:focus,
+.book-service-field select:focus,
+.book-service-field textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.book-service-field textarea {
+  resize: vertical;
+}
+
+.book-service-submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #2ecc71;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-service-submit-btn:hover {
+  background-color: #27ae60;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
